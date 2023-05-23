@@ -1,0 +1,132 @@
+/*CSS external styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif !important;
+	background-image: url("./img/bg.png");
+  background-position: center top;
+  background-attachment: fixed;
+	}
+
+.container-fluid {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+nav	{
+	background-color: rgb(39, 55, 77);
+}	
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+}
+
+img	{
+	width: 300px;
+	height: 300px;
+}
+
+.jumbotron, #social-media, #projects  {
+	background-color: #1b263b !important;
+  opacity: .9 !important;
+}
+
+ #bg-heading {
+ 	background-color: #415a77 !important;
+ }
+
+#contact {
+  opacity: .9 !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+}
+
+.scroll{
+    color:#fff;
+    margin-top:100px;
+}
+
+#toTopBtn {
+     position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5,76%,62%,.8);
+    
+}
+
+.js .cd-top--fade-out {
+    opacity: .5;
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s,visibility .3s,background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0,0,0,.05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5,76%,62%,.8);
+    background-color: hsla(var(--cd-color-3-h),var(--cd-color-3-s),var(--cd-color-3-l),0.8);
+}
+
+.height{
+    height:3000px;
+}
